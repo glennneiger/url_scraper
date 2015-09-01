@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  # redirect_to 'welcome/index'
   root 'welcome#index'
-  get 'welcome/index'
   get 'welcome/url', to: 'welcome#show'
   get 'url', to: 'welcome#show'
 

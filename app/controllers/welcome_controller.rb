@@ -5,7 +5,6 @@ class WelcomeController < ApplicationController
 protect_from_forgery
 
   def index
-    puts "in index"
   end
 
   def show
