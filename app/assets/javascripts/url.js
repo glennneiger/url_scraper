@@ -6,5 +6,4 @@ var highlightTags = function(tag) {
       $(el).removeClass("highlight-yellow");
     };
   });
-  console.log("highlighted");
 }
