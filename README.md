@@ -19,6 +19,6 @@ If you want to install this locally, you'll need a Ruby version manager such as 
 2. Server-side validations on the home page if the URL does not exist.
 3. Render 404 error pages if page is not found
 4. More satisfying button clicks on the Source Code page
-..* Keep the button highlighted after it's clicked.
-..* Create an anchor point on the first highlighted tag so that when you click the tag button, it scrolls you down to the first highlighted tag.
+  1. Keep the button highlighted after it's clicked.
+  2. Create an anchor point on the first highlighted tag so that when you click the tag button, it scrolls you down to the first highlighted tag.
 5. Long-term: protections in place so that my site can't be used too many times in succession to grab data from another site and essentially perform a DDOS attack.
