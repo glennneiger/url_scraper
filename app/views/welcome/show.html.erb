@@ -1,0 +1,17 @@
+<h1>Source Code</h1>
+
+<form action="url" method="get">
+<% @buttons.each do |button| %>
+  <input type="button" name="tag" value=<%= button.first %>:<%= button.last %> onClick='highlightTags(&quot;<%=button.first%>&quot;);'>
+<% end %>
+</form
+
+
+
+
+<p>
+<p>
+<p>
+<p>
+
+<%= @doc %>
